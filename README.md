@@ -95,30 +95,34 @@ The models achieved the following performance:
 
 | Model                | Accuracy | F1 Score |
 |----------------------|----------|----------|
-| Logistic Regression  | 77%      | 84%      |
-| Random Forest        | 73%      | 81%      |
+| Logistic Regression  | 72%      | 56%      |
+| Random Forest        | 99%      | 99%      |
 | XGBoost              | 72%      | 63%      |
+
+as you can see there is a overfitting problem with Random Forest
 
 ### Key Visualizations
 
 #### 1. ROC Curves
 The Receiver Operating Characteristic (ROC) curve compares the true positive rate (sensitivity) and the false positive rate (1-specificity) for each model.
 
-![image](https://github.com/user-attachments/assets/dde56706-530e-4b08-ad4f-8c28dc92501a)
+![image](https://github.com/user-attachments/assets/6eb3bbd5-1538-408b-9970-78b64e2f6782)
 
 
 #### 2. Confusion Matrices
 Confusion matrices visualize the performance of classification models by showing the count of true positives, true negatives, false positives, and false negatives.
 
-(![image](https://github.com/user-attachments/assets/a2c66939-f1ba-4ed7-8006-c76824bc84a5)
+<img width="366" alt="image" src="https://github.com/user-attachments/assets/c893e80b-cc84-4521-908b-965a2fab5e0e">
 
 
 #### 3. Feature Importance
 The most influential features for predicting liver disease, as identified by the Random Forest and XGBoost models.
 
-![image](https://github.com/user-attachments/assets/32cc367a-3aab-4f57-a622-f0b3c18e14bd)
+![image](https://github.com/user-attachments/assets/b4606e94-440e-419f-bfea-994fe6493fd1)
 
-![image](https://github.com/user-attachments/assets/4eeba072-5da1-4f27-b2be-e3f641add061)
+
+#### 4. Final Result
+![image](https://github.com/user-attachments/assets/898dbd79-5a69-45d3-ab88-b88108aec25b)
 
 ---
 
